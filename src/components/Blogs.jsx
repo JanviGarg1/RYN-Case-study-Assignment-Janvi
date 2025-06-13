@@ -6,19 +6,19 @@ const Blogs = () => {
       date: "Nov 9, 2023",
       title: "How UX works in web",
       tags: ["UI", "UX"],
-      image: "/src/assets/image 21.svg",
+      image: "../public/image 21.svg",
     },
     {
       date: "Aug 18, 2023",
       title: "Case study - Analysis Application.",
       tags: ["DESIGN", "PRINT"],
-      image: "/src/assets/image 21 (1).svg",
+      image: "../public/image 21 (1).svg",
     },
     {
       date: "Feb 16, 2023",
       title: "3 ways to develop your skill",
       tags: ["FIGMA", "WEB"],
-      image: "/src/assets/image 22.svg",
+      image: "../public/image 22.svg",
     },
   ];
 

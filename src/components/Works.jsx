@@ -5,21 +5,21 @@ const projects = [
     title: "Analysis Application",
     description:
       "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
-    image: "/src/assets/image 21.svg",
+    image: "../public/image 21.svg",
     tags: ["FIGMA", "UX"],
   },
   {
     title: "Fortknox Application",
     description:
       "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
-    image: "/src/assets/image 21 (1).svg",
+    image: "../public/image 21 (1).svg",
     tags: ["MOBILE", "WEB"],
   },
   {
     title: "Zenocide Application",
     description:
       "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
-    image: "/src/assets/image 22.svg",
+    image: "../public/image 22.svg",
     tags: ["APP", "WEB"],
   },
 ];
@@ -49,7 +49,7 @@ const Works = () => {
               className="bg-[radial-gradient(circle_at_right,_#3f3f3f,_#1a1a1a_70%)] rounded-2xl overflow-hidden grid md:grid-cols-2 gap-4 sm:gap-6 p-4 sm:p-6 lg:p-10"
             >
               {/* Image */}
-              <div className="w-full lg:w-1/3 flex-shrink-0 mb-4 lg:mb-0">
+              <div className="w-full lg:w-2/3 flex-shrink-0 mb-4 lg:mb-0">
                 <img
                   src={project.image}
                   alt={project.title}
