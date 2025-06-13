@@ -1,25 +1,28 @@
 import React from "react";
+import Image20 from "../assets/image20.svg";
+import Image21 from "../assets/image21.svg";
+import Image22 from "../assets/image22.svg";
 
 const projects = [
   {
     title: "Analysis Application",
     description:
       "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
-    image: "../public/image 21.svg",
+    image: Image20,
     tags: ["FIGMA", "UX"],
   },
   {
     title: "Fortknox Application",
     description:
       "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
-    image: "../public/image 21 (1).svg",
+    image: Image21,
     tags: ["MOBILE", "WEB"],
   },
   {
     title: "Zenocide Application",
     description:
       "With user-centered approach, the goals was to create an intuitive interface for enhanced financial intelligence.",
-    image: "../public/image 22.svg",
+    image: Image22,
     tags: ["APP", "WEB"],
   },
 ];
